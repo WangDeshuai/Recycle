@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="PublicCell" id="KGk-i7-Jjw" customClass="MyPublicCell">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="60"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="59"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="sNe-5g-gy6">
+                        <rect key="frame" x="21" y="9" width="29" height="46"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <state key="normal" backgroundImage="刷新.png"/>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="zjY-Lc-uyB">
+                        <rect key="frame" x="157" y="7" width="29" height="46"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <state key="normal" backgroundImage="修改.png"/>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="23C-NT-2vW">
+                        <rect key="frame" x="226" y="9" width="29" height="46"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <state key="normal" backgroundImage="删除.png"/>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="dTA-w9-wst">
+                        <rect key="frame" x="293" y="9" width="56" height="46"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <state key="normal" backgroundImage="联系客服.png"/>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="vFn-mc-scS">
+                        <rect key="frame" x="89" y="8" width="29" height="46"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <state key="normal" backgroundImage="上线.png"/>
+                        <state key="selected" backgroundImage="下线.png"/>
+                    </button>
+                </subviews>
+                <color key="backgroundColor" red="0.81568627450980391" green="0.81568627450980391" blue="0.81568627450980391" alpha="1" colorSpace="calibratedRGB"/>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="lianXiKeFuBtn" destination="dTA-w9-wst" id="Htz-5Y-hNq"/>
+                <outlet property="shanChuBtn" destination="23C-NT-2vW" id="zgf-hQ-MZm"/>
+                <outlet property="shangXianBtn" destination="vFn-mc-scS" id="y49-YC-wWm"/>
+                <outlet property="shuaXinBtn" destination="sNe-5g-gy6" id="hG0-yj-Cqh"/>
+                <outlet property="xiuGaiBtn" destination="zjY-Lc-uyB" id="OF9-Kj-nsV"/>
+            </connections>
+            <point key="canvasLocation" x="284.5" y="277"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="上线.png" width="58" height="92"/>
+        <image name="下线.png" width="56" height="90"/>
+        <image name="修改.png" width="58" height="92"/>
+        <image name="删除.png" width="58" height="92"/>
+        <image name="刷新.png" width="58" height="92"/>
+        <image name="联系客服.png" width="112" height="92"/>
+    </resources>
+</document>

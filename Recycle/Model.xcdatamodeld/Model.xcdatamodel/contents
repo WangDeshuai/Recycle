@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10174" systemVersion="15F34" minimumToolsVersion="Xcode 7.0">
+    <entity name="CityPeople" representedClassName="CityPeople" syncable="YES">
+        <attribute name="pcode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pname" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ppinyin" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="psname" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="HYPeople" representedClassName="HYPeople" syncable="YES">
+        <attribute name="ggcid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name1" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name3" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name4" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="namehy" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pinyin" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="MyZuJi" representedClassName="MyZuJi" syncable="YES">
+        <attribute name="gongqiu" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="messageid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="publictime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="timell" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="titlename" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="People" representedClassName="People" syncable="YES">
+        <attribute name="gongQiu" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="messID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="timeSc" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="titleName" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="ZuiJinSearch" representedClassName="ZuiJinSearch" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="People" positionX="-45" positionY="0" width="128" height="105"/>
+        <element name="ZuiJinSearch" positionX="-45" positionY="27" width="128" height="60"/>
+        <element name="MyZuJi" positionX="-45" positionY="27" width="128" height="120"/>
+        <element name="HYPeople" positionX="-36" positionY="63" width="128" height="150"/>
+        <element name="CityPeople" positionX="-18" positionY="99" width="128" height="120"/>
+    </elements>
+</model>
