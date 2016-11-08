@@ -20,6 +20,7 @@
 @property(nonatomic,copy)NSString * email;
 @property(nonatomic,copy)NSString * zhuyingYeWu;
 @property(nonatomic,copy)NSString * vipClass;
+@property(nonatomic,copy)NSString * erweima;
 //登录的时候获取的
 @property(nonatomic,copy)NSString * endTime;
 @property(nonatomic,copy)NSString * messageID;//自己信息ID

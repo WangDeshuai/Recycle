@@ -235,7 +235,9 @@
     [[NSUserDefaults standardUserDefaults]removeObjectForKey:@"endtime"];
    //清除登录的messageID
     [[NSUserDefaults standardUserDefaults]removeObjectForKey:@"messageid"];
-
+//清楚二维码
+    [[NSUserDefaults standardUserDefaults]removeObjectForKey:@"二维码"];
+    
     [[NSUserDefaults standardUserDefaults]synchronize];
     //清楚plist文件
     //获取路径对象

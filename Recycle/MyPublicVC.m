@@ -18,7 +18,7 @@
 #import "MyPublicVC.h"//我的发布
 @interface MyPublicVC ()<UITableViewDataSource,UITableViewDelegate,LrdSuperMenuDataSource,LrdSuperMenuDelegate>
 {
-    BOOL  _flag[3];
+    BOOL  _flag[1000];
     NSInteger  oneSceon;//判断当前是第几个（供应，求购，还是拍卖 资产）
 
 }

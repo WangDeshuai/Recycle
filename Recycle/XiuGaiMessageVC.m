@@ -129,12 +129,18 @@
     .heightIs(25);
     [comNameLabel setSingleLineAutoResizeWithMaxWidth:KUAN-100];
     //二维码
-    NSString * str;
-    if ([_model.vipClass intValue]>10) {
-        str =[NSString stringWithFormat:@"http://%@.huishoushang.com/",_model.messageID];
-    }else{
-        str =[NSString stringWithFormat:@"%@%@/",FUWU,_model.messageID];
-    }
+    //NSString * str;
+    
+   
+    NSString *  str;
+    
+       
+        str=[[NSUserDefaults standardUserDefaults]objectForKey:@"二维码"];
+          NSLog(@"输出二维码信息%@",str);
+//    }else{
+//        str =[NSString stringWithFormat:@"%@",_model.erweima];
+//    }
+    //[NSString stringWithFormat:@"//http:////%@.huishoushang.com/",_model.vipClass];
     
     UIImageView * imagev =[UIImageView new];
     imagev.image=[HCCreateQRCode createQRCodeWithString:str ViewController:self];//_erWeiMaImage;

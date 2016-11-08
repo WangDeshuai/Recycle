@@ -25,8 +25,8 @@
         _lab1.sd_layout
         .leftSpaceToView(self.contentView ,15)
         .topSpaceToView(self.contentView,10)
-        .widthIs(75)
         .heightIs(30);
+        [_lab1 setSingleLineAutoResizeWithMaxWidth:100];
         _image1.sd_layout
         .rightSpaceToView(self.contentView,50)
         .topEqualToView(_lab1)

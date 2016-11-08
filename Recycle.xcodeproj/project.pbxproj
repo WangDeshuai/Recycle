@@ -3733,7 +3733,7 @@
 				CONFIGURATION_TEMP_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
 				ENABLE_BITCODE = YES;
 				GCC_INPUT_FILETYPE = sourcecode.c.objc;
-				GCC_PREFIX_HEADER = /Users/Macx/Desktop/Recycle/Recycle/PCH.pch;
+				GCC_PREFIX_HEADER = /Volumes/DISK0S3/Recycle/Recycle/PCH.pch;
 				HEADER_SEARCH_PATHS = (
 					"\"$(SRCROOT)/\"",
 					"$(SDKROOT)/usr/include/libxml2",
@@ -3763,7 +3763,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Shijiazhuang Zhenghe Network Co., Ltd. (ADSF8J5QX3)";
 				ENABLE_BITCODE = YES;
 				GCC_INPUT_FILETYPE = sourcecode.c.objc;
-				GCC_PREFIX_HEADER = /Users/Macx/Desktop/Recycle/Recycle/PCH.pch;
+				GCC_PREFIX_HEADER = /Volumes/DISK0S3/Recycle/Recycle/PCH.pch;
 				HEADER_SEARCH_PATHS = (
 					"\"$(SRCROOT)/\"",
 					"$(SDKROOT)/usr/include/libxml2",

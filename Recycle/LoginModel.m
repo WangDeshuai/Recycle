@@ -18,7 +18,13 @@
         NSLog(@">>>>> 网络获取的图片%@",_picUrl);
         _userName=[self string:[dic objectForKey:@"us_contact"]];
         _companyName=[self string:[dic objectForKey:@"us_company"]];
-        NSString * sheng =[self string:[dic objectForKey:@"us_prov_name"]];
+        NSString * sheng =[self string:[dic
+                                        objectForKey:@"us_prov_name"]];
+        
+        _erweima=[dic objectForKey:@"us_webhss"];
+           
+        
+      
         NSString * shi =[self string:[dic objectForKey:@"us_city_name"]];
         _diqu=[NSString stringWithFormat:@"%@-%@",sheng,shi];
         _phoneNumber=[self string:[dic objectForKey:@"us_handtel"]];
@@ -31,7 +37,7 @@
         }else{
             _vipClass=@"";
         }
-        
+       
        //登录的
         _messageID=[self string:[dic objectForKey:@"us_id"]];
         _endTime=[self string:[dic objectForKey:@"us_enddate"]];

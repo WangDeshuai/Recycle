@@ -275,6 +275,11 @@ else{
                 [WINDOW showHUDWithText:@"成功登录" Type:ShowPhotoYes Enabled:YES];
                 //登录成功,把Token转化字符串存到本地
                 NSMutableDictionary * dicc =[dic objectForKey:@"Item3"];
+                //存二维码
+                [[NSUserDefaults standardUserDefaults]setObject:[dicc objectForKey:@"us_webhss"] forKey:@"二维码"];
+                [[NSUserDefaults standardUserDefaults]synchronize];
+                
+                
                 md =[[LoginModel alloc]initWithDic:dicc];
                 [[NSUserDefaults standardUserDefaults]setObject:md.messageID forKey:@"messageid"];
                 [self saveMessagePlist];
